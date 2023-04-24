@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'pixelemulator';
+    src: url(Pixel\ Emulator.otf);
+}
+
+body {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 180vh;
+	background: linear-gradient(to bottom, #050c20 , #355aaa); 
+}
+
+fieldset{
+    color: white;
+    position: absolute;
+    height: 45em;
+    width: 30em;
+    top: 7%;
+}
+.text{
+    font-family: 'pixelemulator';
+    font-size: 16px;
+    /* padding-top: -1%; */
+}
+img{
+	position: absolute;
+	float: left;
+	margin-left: -1200px;
+	margin-top: 45%;
+    border-radius: 90%;
+    padding-left: 90%;
+}
+.git{
+    width: 100px;
+    top: 30%;
+    padding-left: 50%;
+}
+
+.links{
+    position: absolute;
+    top: 47em;
+    font-size: 20px;
+}
+
+@media screen and (max-width: 720px) {
+	fieldset{
+        height: 800px;
+        width: 300px;
+        
+    }
+    .text{
+        font-size: 13px;
+    }
+    .seta{
+        position: absolute;
+        width: 50px;
+    }
+    .links{
+        font-size: 15px;
+        top: 90%;
+    }
+    .git{
+        width: 50px;
+        padding-left: -100%;
+    }
+	}
